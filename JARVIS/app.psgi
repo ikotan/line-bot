@@ -50,8 +50,7 @@ my $app = sub {
         ->add_image(
           image_url => $image_list[$num],
           preview_url => $image_list[$num]
-        )
-        ->add_location(
+        )->add_location(
           title => 'LINE Corporation. ',
           address => 'Hikarie Shibuya-ku Tokyo 151-0002',
           latitude => 35.6591,
