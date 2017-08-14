@@ -1,0 +1,6 @@
+# perl -v
+requires 'perl', '5.24.1';
+
+# perl module
+requires 'Plack';
+requires 'LINE::Bot::API';
